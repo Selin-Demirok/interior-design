@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Lobster+Two&family=Playfair+Display:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background-image: url(picture.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+
+}
+
+.section .navbar {
+    margin-top: 40px;
+    width: 85%;
+    height: 12%;
+    background: rgba(178, 167, 152, 0.8);
+    align-content: center;
+    display: flex;
+    margin-right: 50%;
+    margin-left: 10%;
+    font-size: 35px;
+    font-family: Roboto;
+    position: absolute;
+
+}
+
+.text {
+
+    width: 20%;
+    height: 100vh;
+    background: rgba(142, 143, 142, 0.7);
+    text-align-last: left;
+    display: grid;
+
+    color: white;
+
+    font-family: Roboto;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.section .logo img {
+
+    display: flex;
+    padding-top: 23px;
+    padding-right: 4px;
+    text-align: center;
+    float: left;
+    padding-left: 170px;
+
+
+
+
+
+}
+
+.section .logo h4 {
+    float: left;
+    display: inline;
+    padding-top: 23px;
+    padding-left: 0px;
+    text-align: center;
+    color: white;
+    font-size: 62px;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 0.8px;
+
+}
+
+
+
+
+.navbar ul {
+
+    text-align: center;
+    padding-left: 170px;
+
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    float: none;
+    cursor: pointer;
+    padding: 0px 20px 0px;
+
+
+}
+
+.navbar ul li a:hover {
+    color: rgb(105, 98, 88)
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    transition: .5s;
+    font-family: Roboto;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    display: table-cell;
+
+}
+
+.navbar i {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding: 10px 10px 0px 90px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#table {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 800px;
+    cursor: pointer;
+
+}
+
+.box-table {
+    height: 120px;
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 835px;
+    font-family: roboto;
+    font-size: 14px;
+    color: rgb(76, 78, 76);
+    text-indent: 60px;
+    padding-left: 0px;
+    justify-content: center;
+    line-height: 20px;
+
+
+}
+
+#chair {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 600px;
+    cursor: pointer;
+    
+
+}
+
+.box-chair {
+    height: 120px;
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 640px;
+    font-family: roboto;
+    font-size: 14px;
+    color: rgb(76, 78, 76);
+    text-indent: 60px;
+    padding-left: 0px;
+    justify-content: center;
+    line-height: 20px;
+}
+
+.navbar i:hover {
+    color: rgb(105, 98, 88)
+}
+
+.middle-text p {
+    color: rgb(76, 78, 76);
+    display: flex;
+    align-items: center;
+    padding-top: 285px;
+    font-family: roboto;
+    padding-left: 770px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+p {
+    float: left;
+    font-size: 15px;
+    inline-size: 290px;
+    margin-left: 70px;
+    word-break: break-all;
+    line-height: 25px;
+}
+
+.text h1 {
+    padding-bottom: -250px;
+    font-size: 150px;
+    padding-left: 50px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+}
+
+.text h5 {
+    float: left;
+    font-size: 20px;
+    padding-top: 260px;
+    padding-left: 75px;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.number {
+    color: rgba(255, 255, 255, 0.2);
+
+    font-size: 580px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    padding-top: 0px;
+    margin-left: -210px;
+    overflow: hidden;
+
+
+}
+
+.text button {
+    color: white;
+    border-style: none;
+    outline-style: none;
+    background-color: transparent;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    cursor: pointer;
+}
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
